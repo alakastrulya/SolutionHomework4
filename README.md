@@ -1,6 +1,6 @@
-#Homework 4 (Design Patterns like Singleton & Adapter)
+# Homework 4 (Design Patterns like Singleton & Adapter)
 
-##Overview
+## Overview
 
 This project demonstrates two common design patterns in Java:
 
@@ -8,11 +8,11 @@ Singleton Pattern: Ensures only one instance of a class exists and provides a gl
 
 Adapter Pattern: Enables integration of a legacy system by adapting its interface to match a new expected format.
 
-##Part 1: Singleton Pattern - Configuration Manager
+## Part 1: Singleton Pattern - Configuration Manager
 
 The Singleton Pattern restricts instantiation of a class to a single object and ensures controlled access to shared resources.
 
-###Was done:
+### Was done:
 
 Lazy Initialization: The instance is created only when needed.
 
@@ -20,7 +20,7 @@ Thread Safety: Ensures only one instance is created in multi-threaded environmen
 
 Global Access Point: Provides a static method to retrieve the instance.
 
-###Usage Instructions
+### Usage Instructions
 
 Open a terminal and navigate to your project directory.
 
@@ -30,11 +30,11 @@ Run:
 
 ConfigManagerDemo
 
-##Part 2: Adapter Pattern - Chat Service Adapter
+## Part 2: Adapter Pattern - Chat Service Adapter
 
 The Adapter Pattern allows a system with an incompatible interface to work with existing components by wrapping and translating method calls.
 
-###Was done:
+### Was done:
 
 Encapsulation: The adapter hides the details of the legacy system.
 
@@ -42,7 +42,7 @@ Loose Coupling: The new system interacts with a defined interface rather than th
 
 Code Reusability: The legacy system is integrated without modification.
 
-###Usage Instructions
+### Usage Instructions
 
 Open a terminal and navigate to your project directory.
 
@@ -52,7 +52,7 @@ Run:
 
 ChatServiceDemo
 
-##Conclusion
+## Conclusion
 
 Both the Singleton and Adapter patterns help improve software design:
 
